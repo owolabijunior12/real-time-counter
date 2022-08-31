@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real time charcter counter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Real time charcter counter</h1>
+        <textarea class="text-area" id="text-area"  placeholder="Write text here....... " maxlength="150"></textarea>
+        <div class="counter-container">
+            <p>
+            Total counter:
+                <span class="total-counter" id="total-counter">
+                 <b>0</b>
+                </span>
+            </p>
+            <p>
+                Rremaining:
+                <span class="remaining-counter" id="remaining-counter">
+                  <b>150</b>
+                </span>
+            </p>
+        </div>
+        <button type="submit" id="btn">SUBMIT</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
